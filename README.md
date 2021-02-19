@@ -1,2 +1,2 @@
 # spot-playback-sdk
-Fun times with metadat and streaming audio!
+Fun times with metadata and streaming audio!
