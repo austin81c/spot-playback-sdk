@@ -4,13 +4,13 @@
   <title>Spotify Web Playback SDK Quick Start Tutorial</title>
 </head>
 <body>
-  <h1>Spotify Web Playback SDK Quick Start Tutorial</h1>
-  <h2>Open your console log: <code>View > Developer > JavaScript Console</code></h2>
+    <h1>Spotify Web Playback SDK Quick Start Tutorial</h1>
+    <h2>Open your console log: <code>View > Developer > JavaScript Console</code></h2>
 
-  <div id="like_button_container"></div>
+    <div id="like_button_container"></div>
 
-  <script src="https://sdk.scdn.co/spotify-player.js"></script>
-  <script>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script>
     window.onSpotifyWebPlaybackSDKReady = () => {
       const token = 'BQAC8xUq2z24vftzp2BB_8mMvrpRkv28IwFTNjKTJaJ9_o_jBdvV3_BlV7SaPraZX7XxhkFiCy26Bb7d3cyYlruci7m6st41cmPv0Ie4FNQFcdQOB-vp3DOWZGY96R3N8x1pqsOYW20ISh7MHI7VqL-zHp_NgEUQYf3rmkhczD2AwWLhK8lpWHE';
       const player = new Spotify.Player({
@@ -40,7 +40,7 @@
       // Connect to the player!
       player.connect();
     };
-  </script>
+    </script>
 
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
@@ -48,7 +48,6 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
     <!-- Load our React component. -->
     <script src="like_button.js"></script>
-
 
 </body>
 </html>
